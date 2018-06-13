@@ -18,7 +18,7 @@ class PageDataController extends Controller
 
     public function getData()
 	{
-		$p = new \App\Pages\Page();
-		var_dump($p->test());
+		$p = new \App\Pages\Bwin();
+		var_dump($p->content);
 	}
 }
